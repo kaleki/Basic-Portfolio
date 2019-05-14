@@ -3,44 +3,92 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>About | Kale Intharaksa</title>
+	<title>About | Kale Intharaksa</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Kale Intharaksa</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
+ 
+	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+		<header class="masthead mb-auto">
+			<div class="inner">
+				<h3 class="masthead-brand">Kale Intharaksa</h3>
+				<nav class="nav nav-masthead justify-content-center">
+					<a class="nav-link active" href="index.html">About</a>
+					<a class="nav-link" href="#portfolio-container">Portfolio</a>
+					<a class="nav-link" href="#contact-container">Contact</a>
+				</nav>
+			</div>
+		</header>
+		<br>
+	
+		<main role="main" class="inner cover">
+				<img alt="" class="media-image" src="https://pbs.twimg.com/media/D2NFyuhWsAAC2_6.jpg:large" data-height="2048" data-width="1538" style="width: 250px; height: 250px; margin-top: 0px; margin-bottom: 0px;">
+				<br>
+			<h1 class="cover-heading">About me</h1>
+			<br>
+			<p class="lead">Hello World! I have been in the hospitalty industry most of my life looking to obtain a career in the programming world. I am currently enrolled in the University of Central Florida Coding Bootcamp to gain the skills necessary. Looking to use my knowledge, experience, and problem solving skills during my time as a General Manager and apply it to be a Full Stack Developer.</p>
+			<p class="lead">I live in Winter Garden with my son and wife. We like to go to the movies, live sporting events, and Disney.</p>
+			<h2 class="cover heading">Skills</h2>
+			<p>HTML</p>
+			<p>CSS</p>
+			<p>JavaScript</p>
+			<p>Bootstrap</p>
+			<p>Firebase</p>
+			<p>jQuery</p>
+			<p>APIs</p>
 
-      <img alt="" class="media-image" src="https://pbs.twimg.com/media/D2NFyuhWsAAC2_6.jpg:large" data-height="2048" data-width="1538" style="width: 250px; height: 250px; margin-top: 0px; margin-bottom: 0px;">
 
-      <p>Hello World! I have been making pizzas for the last eight years of my life and looking for somthing new! I have enrolled in the UCF Coding Bootcamp with the hopes of getting a job in the tech world.</p>
+		</main>
 
-      <p>When I'm not working I enjoy to spend time with my five year old son Levi and my beautiful wife Stephanie. </p>
+		<div id="portfolio-container" class="container">
+				<section class="portfolio">
+					<h1>Portfolio</h1>
+		
+		
+				</section>
+		
+			</div>
 
-      <p>We like to go to the movies, live sporting events and going to Disney</p>
+			<div id="contact-container" class="container">
+					<section class="contact">
+						<h1>Contact</h1>
+			
+						<form id="contact-form">
+							<ul>
+								<li>
+									<label for="name">Name</label>
+									<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+								</li>
+								<li>
+									<label for="email">Email</label>
+									<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+								</li>
+								<li>
+									<label for="message">Message</label>
+									<textarea id="message" name="message" required="required"></textarea>
+								</li>
+							</ul>
+							<input type="submit">
+						</form>
+			
+					</section>
+			
+				</div>
 
-    </section>
 
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright 2019 Kale Intharaksa &copy; 
-    </div>
-  </footer>
+  
+	
+		<footer class="mastfoot mt-auto">
+			<div class="inner">
+				<p>Copyright 2019 Kale Intharaksa &copy; , Contact <a href="https://twitter.com/whoiskale">@whoiskale</a>.</p>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>
+
