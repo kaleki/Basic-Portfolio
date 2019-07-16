@@ -1,28 +1,22 @@
-/*
- * Globals
- */
-
-/* Links */
+/* 
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/* Custom default button */
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+  text-shadow: none;
   background-color: #fff;
   border: .05rem solid #fff;
 }
 
 
-/*
- * Base structure
- */
+
 
 html,
 body {
@@ -43,9 +37,7 @@ body {
 }
 
 
-/*
- * Header
- */
+
 .masthead {
   margin-bottom: 2rem;
 }
@@ -86,9 +78,6 @@ body {
 }
 
 
-/*
- * Cover
- */
 .cover {
   padding: 0 1.5rem;
 }
@@ -97,15 +86,37 @@ body {
   font-weight: 700;
 }
 
-/* .bg-secondary {
-    background-color: black !important;
-} */
-
-
-/*
- * Footer
- */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
-  
+   */
+
+   html{
+     background: #222 url(/Users/stephaniesanchez/Desktop/homework/Basic-Portfolio/assets/smoke.jpg);
+     height: 100%;
+     background-position: fixed;
+   }
+
+   body{
+     background: none;
+     line-height: 1.5%;
+     color: #f5f5f5;
+     font-family: 'Roboto Slab', serif;
+   }
+   
+   h1,h2,h3,h4,h5,h6{
+     margin-top: 0%;
+   }
+
+   p{
+     margin-bottom: 1rem;
+   }
+
+   .navbar-brand, .nav-link{
+     color: #f5f5f5;
+     font-weight: bold;
+   }
+
+
+
+
